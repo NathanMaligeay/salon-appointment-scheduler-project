@@ -192,23 +192,23 @@ INSERT INTO public.customers VALUES (67, '', '');
 -- Data for Name: services; Type: TABLE DATA; Schema: public; Owner: freecodecamp
 --
 
-INSERT INTO public.services VALUES (2, 'shampoo + simple cut');
-INSERT INTO public.services VALUES (3, 'shampoo + simple cut + beard trimming');
 INSERT INTO public.services VALUES (1, 'cut');
+INSERT INTO public.services VALUES (2, 'shampoo with simple cut');
+INSERT INTO public.services VALUES (3, 'shampoo with simple cut and beard trimming');
 
 
 --
 -- Name: appointments_appointment_id_seq; Type: SEQUENCE SET; Schema: public; Owner: freecodecamp
 --
 
-SELECT pg_catalog.setval('public.appointments_appointment_id_seq', 103, true);
+SELECT pg_catalog.setval('public.appointments_appointment_id_seq', 127, true);
 
 
 --
 -- Name: customers_customer_id_seq; Type: SEQUENCE SET; Schema: public; Owner: freecodecamp
 --
 
-SELECT pg_catalog.setval('public.customers_customer_id_seq', 97, true);
+SELECT pg_catalog.setval('public.customers_customer_id_seq', 117, true);
 
 
 --
